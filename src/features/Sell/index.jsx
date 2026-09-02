@@ -69,7 +69,7 @@ function Sell() {
           <aside className="sell-process-aside">
             <h2 className="sell-steps-title" id="sell-process-title">Proceso de Venta</h2>
             <p className="sell-process-description">
-              En Encuentro, seguimos un proceso de venta estructurado y eficaz para asegurar que tu propiedad se venda rápidamente y al mejor precio.<br></br>
+              Seguimos un proceso de venta estructurado y eficaz para asegurar que tu propiedad se venda rápidamente y al mejor precio.<br></br>
 
               Nuestro enfoque está basado en la profesionalidad y atención personalizada en cada etapa.<br></br>
               

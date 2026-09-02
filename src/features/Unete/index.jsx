@@ -31,7 +31,7 @@ function Unete() {
     },
     {
       title: 'Responsabilidad Social Corporativa',
-      description: ' Tenemos acciones de RSC como, Encuentro con el arte o la alianza con CalmTag. También tenemos asesores formados para ayudar a personas con Alzheimer y sus familias.',
+      description: ' Tenemos acciones de RSC como, encuentro con el arte o la alianza con CalmTag. También tenemos asesores formados para ayudar a personas con Alzheimer y sus familias.',
     },
   ]
 
@@ -42,7 +42,7 @@ function Unete() {
           <img className="unete-header-image" src={heroImage} alt="Interior moderno de una vivienda" />
           <div className="unete-header-overlay" aria-hidden="true" />
           <div className="unete-header-content">
-            <h1>Por qué Inmobiliarias Encuentro</h1>
+            <h1>Por qué nuestra inmobiliaria</h1>
             <p>
               Somos más que una inmobiliaria; somos tu asesor.<br></br>
               Hoy por ti, mañana también.

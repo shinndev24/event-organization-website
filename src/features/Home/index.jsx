@@ -24,7 +24,7 @@ function Home({ heroImage, services = [], serviceSections = {}, onNavigate }) {
 
   const newsItems = [
     {
-      title: 'Fiesta de Entrega de Premios en Inmobiliarias Encuentro',
+      title: 'Fiesta de Entrega de Premios',
       subtitle: 'febrero 4, 2025',
       image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=900&q=80',
       content:
@@ -103,7 +103,7 @@ function Home({ heroImage, services = [], serviceSections = {}, onNavigate }) {
         <div className="container">
           <h2>NUESTROS SERVICIOS</h2>
 
-          <div className="services-grid" role="list" aria-label="Servicios de Encuentro">
+          <div className="services-grid" role="list" aria-label="Servicios que ofrecemos">
             {visibleServices.length > 0 ? (
               visibleServices.map((service) => renderServiceCard(service))
             ) : (

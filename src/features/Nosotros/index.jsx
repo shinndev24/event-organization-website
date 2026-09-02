@@ -23,7 +23,7 @@ const aboutBlocks = [
 
 const pressNotes = [
   {
-    title: 'Encuentro refuerza su comunicación social',
+    title: 'Reforzamos nuestra comunicación social',
     body: 'Presentamos nuevas líneas de comunicación que acercan nuestras historias de impacto, innovación y comunidad a medios nacionales y regionales.',
   },
   {
@@ -272,7 +272,7 @@ function Nosotros({ officeLandings = [], onNavigate }) {
                         <article className="nosotros-rsc-card">
                           <h5>Alianza con CalmTag</h5>
                           <p>
-                            Inmobiliarias Encuentro y CalmTag han unido fuerzas para abordar una preocupación fundamental de la sociedad: la seguridad de las personas con Alzheimer en situaciones de riesgo.
+                            Hemos unido fuerzas con CalmTag para abordar una preocupación fundamental de la sociedad: la seguridad de las personas con Alzheimer en situaciones de riesgo.
                           </p>
                           <p>
                             A través de esta alianza, más de 100 asesores inmobiliarios de nuestra compañía han recibido una formación especializada de CalmTag para identificar y comunicar situaciones de desorientación de vecinos que padecen Alzheimer.
@@ -286,16 +286,16 @@ function Nosotros({ officeLandings = [], onNavigate }) {
                         </article>
 
                         <article className="nosotros-rsc-card">
-                          <h5>Encuentro con el Arte</h5>
+                          <h5>Nuestro encuentro con el arte</h5>
                           <p>
                             Las obras de arte se ven, se sienten, te gustan o no te gustan… Exactamente lo mismo pasa con las casas; las ves, las sientes, te gustan o no. Todo es cuestión de emociones. ¿Y si unimos ambas emociones en una misma iniciativa?
                           </p>
                           <p>
-                            Así nace Encuentro con el Arte, una idea que busca que ambos universos se beneficien de las evidentes sinergias.
+                            Así nace esta idea, que busca que ambos universos se beneficien de las evidentes sinergias.
                           </p>
                           <ul>
                             <li>
-                              Inmobiliarias Encuentro patrocinador oficial del Salón de Otoño del Arte: El Salón de Otoño de la Asociación Española de Pintores y Escultores cuenta ya con 114 años de historia, lo que le convierte en el certamen más antiguo y prestigioso de los que se celebran en España.
+                              Patrocinadores oficiales del Salón de Otoño del Arte: El Salón de Otoño de la Asociación Española de Pintores y Escultores cuenta ya con 114 años de historia, lo que le convierte en el certamen más antiguo y prestigioso de los que se celebran en España.
                             </li>
                             <li>
                               Exposiciones: Nuestra red de oficinas son galerías de arte permanentes para pintores y escultores. No te pierdas nuestras próximas exposiciones.
