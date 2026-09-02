@@ -5,7 +5,7 @@ import BuyMap from './components/BuyMap.jsx'
 import BuyResults from './components/BuyResults.jsx'
 import { useBuyFilters } from './hooks/useBuyFilters.js'
 import { useBuyResults } from './hooks/useBuyResults.js'
-import { servicesPageSections } from '@data/siteContent.js'
+import { servicesPageSections } from '@data/creativeContent.js'
 
 function Buy({ onNavigate }) {
   const { filters, setters, handleClearFilters } = useBuyFilters()
@@ -43,7 +43,7 @@ function Buy({ onNavigate }) {
 
         <section className="related-services">
           <div className="buy-services-header">
-            <h2>Nuestros servicios de compra</h2>
+            <h2>Experiencias destacadas</h2>
           </div>
 
           <div className="news-template">

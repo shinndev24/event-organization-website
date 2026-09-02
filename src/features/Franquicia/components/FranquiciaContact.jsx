@@ -5,7 +5,7 @@ export default function FranquiciaContact() {
 
   return (
     <section className="franquicia-contact" id="contacto">
-      <h2 className="section-title">Contáctanos</h2>
+      <h2 className="section-title">Hablemos de colaborar</h2>
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <input
@@ -34,8 +34,8 @@ export default function FranquiciaContact() {
         <div className="form-group">
           <input
             type="text"
-            placeholder="Zona de interés"
-            aria-label="Zona de interés"
+            placeholder="Tipo de proyecto"
+            aria-label="Tipo de proyecto"
             required
           />
         </div>
@@ -46,7 +46,7 @@ export default function FranquiciaContact() {
             required
           ></textarea>
         </div>
-        <button type="submit" className="submit-button" aria-label="Enviar">Enviar</button>
+        <button type="submit" className="submit-button" aria-label="Enviar">Quiero colaborar</button>
       </form>
     </section>
   );

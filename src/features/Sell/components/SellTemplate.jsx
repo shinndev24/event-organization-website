@@ -48,22 +48,22 @@ function SellTemplate({ content, onNavigate }) {
 
           <div className={`office-dropdown ${menuOpen ? 'is-open' : ''}`}>
             <a href="#compra" onClick={(event) => { event.preventDefault(); handleNavigate('compra') }}>
-              Comprar
+              Experiencias
             </a>
             <a href="#venta" onClick={(event) => { event.preventDefault(); handleNavigate('venta') }}>
-              Vender
+              Proyectos
             </a>
             <a href="#servicios" onClick={(event) => { event.preventDefault(); handleNavigate('servicios') }}>
               Servicios
             </a>
             <a href="#office-listings" onClick={() => setMenuOpen(false)}>
-              En venta
+              Proyectos destacados
             </a>
             <a href="#office-contact" onClick={() => setMenuOpen(false)}>
               Contacto
             </a>
             <a href="#office-about" onClick={() => setMenuOpen(false)}>
-              Sobre la oficina
+              Sobre el estudio
             </a>
           </div>
         </div>
@@ -123,7 +123,7 @@ function SellTemplate({ content, onNavigate }) {
           )}
           {visibleListings >= content.listings.length && visibleListings > 2 && (
             <button type="button" className="office-load-more" onClick={handleLoadLess}>
-              Cargar menos
+              Ver menos
             </button>
           )}
         </div>

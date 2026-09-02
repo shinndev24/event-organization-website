@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { booleanPointInPolygon } from '@turf/boolean-point-in-polygon'
-import { buyResults } from '../../../data/siteContent.js'
+import { buyResults } from '../../../data/creativeContent.js'
 
 function pointInBounds(point, bounds) {
   if (!bounds) return true

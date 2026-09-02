@@ -15,23 +15,23 @@ function PrivateZone() {
       <section className="login-page">
         <div className="login-container">
           <div className="login-card">
-            <h1>Zona Privada</h1>
+            <h1>Área de cliente</h1>
 
             <form className="login-form" onSubmit={handleLogin}>
               <div className="form-group">
-                <label htmlFor="username">Usuario</label>
-                <input type="text" id="username" placeholder="Ingresa tu usuario" required />
+                <label htmlFor="username">Correo</label>
+                <input type="text" id="username" placeholder="Escribe tu correo" required />
               </div>
 
               <div className="form-group">
                 <label htmlFor="password">Contraseña</label>
-                <input type="password" id="password" placeholder="Ingresa tu contraseña" required />
+                <input type="password" id="password" placeholder="Escribe tu contraseña" required />
               </div>
 
               <button type="submit" className="login-button">Acceder</button>
             </form>
 
-            <p className="login-note">* Este es un acceso de prueba sin validación de credenciales</p>
+            <p className="login-note">* Acceso privado para consultar proyectos y materiales</p>
           </div>
         </div>
       </section>
@@ -42,7 +42,7 @@ function PrivateZone() {
     <section className="private-zone">
       {isBannerVisible && (
         <div className="banner">
-          <p>Bienvenido a tu área privada</p>
+          <p>Bienvenido a tu espacio de proyecto</p>
           <button
             type="button"
             className="banner-close"
@@ -56,7 +56,7 @@ function PrivateZone() {
 
       <div className="private-zone-container">
         <header className="private-header">
-          <h1>Área Privada</h1>
+          <h1>Panel de proyecto</h1>
           <button
             type="button"
             className="logout-button"
@@ -77,9 +77,9 @@ function PrivateZone() {
                 />
               </div>
               <div className="card-content">
-                <h2>Nuestra IA</h2>
-                <p>Damos un paso más en innovación incorporando tres herramientas de Inteligencia Artificial diseñadas para potenciar tu autoridad, minimizar riesgos y multiplicar tus captaciones.</p>
-                <p><b>Acceso a Zona IA</b></p>
+                <h2>Laboratorio creativo</h2>
+                <p>Explora herramientas de Inteligencia Artificial para investigar, idear y dar forma a experiencias con más rapidez.</p>
+                <p><b>Entrar al laboratorio</b></p>
                 <button className="edit-button">Acceder</button>
               </div>
             </section>
@@ -94,8 +94,8 @@ function PrivateZone() {
               </div>
               <div className="card-content">
                 <h2>Área de formación</h2>
-                <p>RAccede a cursos, tutoriales y materiales didácticos que te ayudarán a crecer profesionalmente.</p>
-                <button className="edit-button">Acceder a vídeos de formación</button>
+                <p>Accede a cursos, referencias y materiales que te ayudarán a crecer creativamente.</p>
+                <button className="edit-button">Ver recursos de formación</button>
               </div>
             </section>
 
@@ -103,13 +103,13 @@ function PrivateZone() {
               <div className="card-media">
                 <img
                   src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=900&q=80"
-                  alt="Acceder a Casafari"
+                  alt="Acceder a la biblioteca de proyectos"
                   loading="lazy"
                 />
               </div>
               <div className="card-content">
-                <h2>Acceder a Casafari</h2>
-                <p>Accede al CRM de Casafari para gestionar tus propiedades y clientes de manera eficiente. Optimiza tu trabajo con herramientas avanzadas y actualizaciones en tiempo real.</p>
+                <h2>Biblioteca de proyectos</h2>
+                <p>Consulta referencias, contactos y materiales de proyectos para trabajar de forma eficiente y mantener todo actualizado.</p>
                 <button className="edit-button">Acceder</button>
               </div>
             </section>
@@ -160,7 +160,7 @@ function PrivateZone() {
               </div>
               <div className="card-content">
                 <h2>Soporte Técnico</h2>
-                <p>¿Tienes problemas con algún inmueble o parte de la web? Puedes abrir un ticket de asistencia con nuestro equipo especializado de soporte técnico que te ayudara con cualquie tema relacionado con el sitio web.</p>
+                <p>¿Tienes problemas con un proyecto o parte de la web? Abre un ticket y nuestro equipo te ayudará con cualquier incidencia.</p>
                 <p><b>Soporte Técnico</b></p>
                 <button className="edit-button">Abrir Ticket</button>
               </div>

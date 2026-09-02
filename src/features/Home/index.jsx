@@ -6,9 +6,9 @@ function Home({ heroImage, services = [], serviceSections = {}, onNavigate }) {
   const newsTrackRef = useRef(null)
 
   const categoryLabels = {
-    comprar: 'Compra',
-    vender: 'Venta',
-    independiente: 'Finmoo',
+    comprar: 'Experiencias',
+    vender: 'Proyectos',
+    independiente: 'Estrategia',
   }
 
   const allServices = Object.entries(serviceSections).flatMap(([category, items]) =>
@@ -31,14 +31,14 @@ function Home({ heroImage, services = [], serviceSections = {}, onNavigate }) {
         'Sigue leyendo',
     },
     {
-      title: 'Las tendencias en vivienda pasan por vivir fuera de las grandes ciudades',
+      title: 'Las ideas que transforman una experiencia',
       subtitle: 'agosto 3, 2022',
       image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=900&q=80',
       content:
         'Sigue leyendo',
     },
     {
-      title: '¿Cuáles son los servicios de una inmobiliaria?',
+      title: '¿Qué hace memorable a un evento?',
       subtitle: 'septiembre 20, 2022',
       image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=80',
       content:
@@ -67,7 +67,7 @@ function Home({ heroImage, services = [], serviceSections = {}, onNavigate }) {
       <section className="hero" id="inicio-hero" style={{ backgroundImage: `url(${heroImage})` }}>
         <div className="hero-overlay" />
         <div className="hero-content container">
-          <h1>Encuentra tu propiedad perfecta</h1>
+          <h1>Imaginamos experiencias que dejan huella</h1>
 
           <div className="search-panel">
             <div className="search-tabs">
@@ -76,14 +76,14 @@ function Home({ heroImage, services = [], serviceSections = {}, onNavigate }) {
                 className={`search-tab ${activeMode === 'comprar' ? 'is-active' : ''}`}
                 onClick={() => setActiveMode('comprar')}
               >
-                Quiero comprar
+                Quiero vivirlo
               </button>
               <button
                 type="button"
                 className={`search-tab ${activeMode === 'vender' ? 'is-active' : ''}`}
                 onClick={() => setActiveMode('vender')}
               >
-                Quiero vender
+                Quiero crearlo
               </button>
             </div>
 
@@ -93,7 +93,7 @@ function Home({ heroImage, services = [], serviceSections = {}, onNavigate }) {
                   <path d="M11 4a7 7 0 1 0 4.4 12.4l3.1 3.1 1.4-1.4-3.1-3.1A7 7 0 0 0 11 4Zm0 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Z" />
                 </svg>
               </button>
-              <input type="text" placeholder="Buscar ubicación.." aria-label="Buscar ubicación" />
+              <input type="text" placeholder="Busca una experiencia o lugar..." aria-label="Buscar experiencia o lugar" />
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ function Home({ heroImage, services = [], serviceSections = {}, onNavigate }) {
 
       <section className="services" id="servicios">
         <div className="container">
-          <h2>NUESTROS SERVICIOS</h2>
+          <h2>NUESTRAS EXPERIENCIAS</h2>
 
           <div className="services-grid" role="list" aria-label="Servicios que ofrecemos">
             {visibleServices.length > 0 ? (
@@ -117,7 +117,7 @@ function Home({ heroImage, services = [], serviceSections = {}, onNavigate }) {
               className="services-extra-button"
               onClick={() => onNavigate?.('franquiciate')}
             >
-              ¿Quieres franquiciarte?
+              ¿Quieres colaborar?
             </button>
 
             <button

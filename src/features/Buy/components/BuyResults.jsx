@@ -12,7 +12,7 @@ function BuyResults({ results, selectedAreas = [], totals = {}, selectedProvince
       </h3>
 
       {totals?.total !== undefined && (
-        <p className="buy-selection-summary">Propiedades en selección: {totals.total}</p>
+        <p className="buy-selection-summary">Proyectos en selección: {totals.total}</p>
       )}
 
       <div className="buy-results-list">
@@ -25,7 +25,7 @@ function BuyResults({ results, selectedAreas = [], totals = {}, selectedProvince
               <p className="buy-result-subtitle">{result.subtitle}</p>
               <p className="buy-result-description">{result.description}</p>
 
-              <div className="buy-result-meta" aria-label="Datos del inmueble">
+              <div className="buy-result-meta" aria-label="Datos del proyecto">
                 <span className="buy-meta-item">
                   <span className="buy-meta-icon">
                     <BedIcon />
@@ -59,13 +59,13 @@ function BuyResults({ results, selectedAreas = [], totals = {}, selectedProvince
                 onOpenProperty(result)
               }}
             >
-              Especificaciones
+              Ver proyecto
             </a>
           </article>
         ))}
 
         {results.length === 0 && (
-          <p className="buy-empty-results">No hay inmuebles en esta zona. Prueba con otra selección.</p>
+          <p className="buy-empty-results">No hay proyectos en esta zona. Prueba con otra selección.</p>
         )}
       </div>
     </>

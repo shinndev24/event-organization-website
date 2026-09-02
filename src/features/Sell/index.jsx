@@ -1,6 +1,6 @@
 import './Sell.css'
 import { useRef, useEffect } from 'react'
-import { sellSteps, servicesPageSections } from '@data/siteContent.js'
+import { sellSteps, servicesPageSections } from '@data/creativeContent.js'
 
 function Sell() {
   const handleSellSubmit = (event) => {
@@ -47,14 +47,14 @@ function Sell() {
           </div>
 
           <form ref={formRef} className="sell-form" onSubmit={handleSellSubmit}>
-            <h2>Vender</h2>
+            <h2>Cuéntanos tu idea</h2>
 
             <input type="text" placeholder="Nombre y apellidos" required />
             <input type="email" placeholder="Correo electronico" required />
 
             <div className="sell-form-row">
               <input type="tel" placeholder="Teléfono" required />
-              <input type="text" placeholder="Código postal" required />
+              <input type="text" placeholder="Tipo de proyecto" required />
             </div>
 
             <p>* Politica de privacidad *</p>
@@ -67,9 +67,9 @@ function Sell() {
 
         <section className="sell-process-layout" aria-labelledby="sell-process-title">
           <aside className="sell-process-aside">
-            <h2 className="sell-steps-title" id="sell-process-title">Proceso de Venta</h2>
+            <h2 className="sell-steps-title" id="sell-process-title">Nuestro proceso creativo</h2>
             <p className="sell-process-description">
-              Seguimos un proceso de venta estructurado y eficaz para asegurar que tu propiedad se venda rápidamente y al mejor precio.<br></br>
+              Seguimos un proceso creativo estructurado para convertir una idea en una experiencia memorable.<br></br>
 
               Nuestro enfoque está basado en la profesionalidad y atención personalizada en cada etapa.<br></br>
               
@@ -79,7 +79,7 @@ function Sell() {
               <span className="sell-process-related-arrow" aria-hidden="true">↓</span>
             </h3>
             <p className="sell-process-description sell-process-related-description">
-              Ofrecemos una gama completa de servicios diseñados para facilitar y optimizar el proceso de venta de tu inmueble en cualquier situación, por compleja que sea.<br></br>
+              Combinamos estrategia, diseño, producción y contenido para que cada proyecto tenga una identidad propia.<br></br>
             </p>
           </aside>
 
@@ -101,7 +101,7 @@ function Sell() {
         <section className="related-services">
           <div className="news-template">
             <div className="sell-services-header">
-              <h2>Nuestros servicios de venta</h2>
+              <h2>Más formas de crear juntos</h2>
             </div>
 
             <div className="news-template-controls">

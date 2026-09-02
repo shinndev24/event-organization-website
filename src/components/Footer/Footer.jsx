@@ -13,7 +13,7 @@ function Footer() {
     <section className="footer-bar" id="contacto">
       <div className="footer-content">
         <div className="footer-contact-block">
-          <span className="footer-label">Llámanos</span>
+          <span className="footer-label">Hablemos</span>
         </div>
         <div className="footer-contact-block">
           <span className="footer-label">Escríbenos</span>
