@@ -38,8 +38,8 @@ The project showcases:
 
 ```bash
 # Clone the repository
-git clone [Github](https://github.com/shinndev24/real-estate-website.git)
-cd real-estate-website
+git clone [Github](https://github.com/shinndev24/event-organization-website)
+cd event-organization-website
 
 # Install dependencies
 npm install
