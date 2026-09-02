@@ -62,7 +62,7 @@ export const sellSteps = [
   { title: '4. Lanzamiento y memoria', text: 'Activamos el evento y generamos piezas que prolongan su impacto después de que termine.', image: images[5] },
 ]
 
-export const officeLandingPages = ['Lisboa', 'Copenhague', 'Ciudad de México', 'Buenos Aires', 'Tokio', 'Berlín'].map((city, index) => ({
+export const officeLandingPages = ['Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Bilbao', 'Málaga'].map((city, index) => ({
   title: `Estudio ${city}`,
   description: `Proyectos y experiencias producidos desde nuestro estudio de ${city}.`,
   page: `oficina-${index + 1}`,
@@ -90,11 +90,11 @@ export const officeLandingContents = Object.fromEntries(officeLandingPages.map((
   formRows: [[{ id: `${office.page}-name`, type: 'text', placeholder: 'Nombre', required: false }]],
 }]))
 
-export const locationData = { Lisboa: { municipalities: ['Alfama', 'Bairro Alto', 'Belém'] }, Copenhague: { municipalities: ['Nørrebro', 'Vesterbro', 'Østerbro'] }, 'Ciudad de México': { municipalities: ['Roma Norte', 'Condesa', 'Coyoacán'] }, 'Buenos Aires': { municipalities: ['Palermo', 'San Telmo', 'Recoleta'] }, Tokio: { municipalities: ['Shibuya', 'Shinjuku', 'Meguro'] }, Berlín: { municipalities: ['Kreuzberg', 'Mitte', 'Neukölln'] } }
+export const locationData = { Madrid: { municipalities: ['Malasaña', 'Lavapiés', 'Chamberí'] }, Barcelona: { municipalities: ['Gràcia', 'Poblenou', 'Eixample'] }, Valencia: { municipalities: ['Ruzafa', 'El Carmen', 'Cabanyal'] }, Sevilla: { municipalities: ['Triana', 'Santa Cruz', 'Alameda'] }, Bilbao: { municipalities: ['Deusto', 'Bilbao La Vieja', 'Indautxu'] }, Málaga: { municipalities: ['Soho', 'Pedregalejo', 'Centro'] } }
 export const propertyTypes = ['Evento', 'Festival', 'Experiencia', 'Producción']
 export const operationTypes = ['Próximos', 'Realizados', 'A medida']
 export const spainBounds = [[27.4, -18.3], [44.3, 4.9]]
 
 export const buyResults = officeLandingPages.flatMap((office, index) => [
-  { id: index + 1, title: 'Proyecto destacado', subtitle: `${office.title.replace('Estudio ', '')}, red internacional`, description: 'Experiencia creativa desarrollada por nuestro equipo.', specs: 'Evento · Diseño · Producción', propertyReference: `PRO-${1000 + index}`, status: 'Disponible', priceValue: 0, label: 'Destacado', bedrooms: 1, bathrooms: 1, areaM2: 100, province: office.title.replace('Estudio ', ''), municipality: 'Centro', propertyType: 'Experiencia', operationType: 'Realizados', coordinates: { lat: 40.416 + index * 0.1, lng: -3.703 + index * 0.1 }, image: images[index % images.length] },
+  { id: index + 1, title: 'Proyecto destacado', subtitle: `${office.title.replace('Estudio ', '')}, España`, description: 'Experiencia creativa desarrollada por nuestro equipo.', specs: 'Evento · Diseño · Producción', propertyReference: `PRO-${1000 + index}`, status: 'Disponible', priceValue: 0, label: 'Destacado', bedrooms: 1, bathrooms: 1, areaM2: 100, province: office.title.replace('Estudio ', ''), municipality: 'Centro', propertyType: 'Experiencia', operationType: 'Realizados', coordinates: { lat: 40.416 + index * 0.1, lng: -3.703 + index * 0.1 }, image: images[index % images.length] },
 ])

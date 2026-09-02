@@ -39,12 +39,12 @@ const pressNotes = [
 const mediaLogos = ['El País', 'Idealista', 'Onda Cero', 'EFE']
 
 const agencySeeds = [
-  { city: 'Lisboa', address: 'Estudio creativo · Alfama' },
-  { city: 'Copenhague', address: 'Estudio creativo · Nørrebro' },
-  { city: 'Ciudad de México', address: 'Estudio creativo · Roma Norte' },
-  { city: 'Buenos Aires', address: 'Estudio creativo · Palermo' },
-  { city: 'Tokio', address: 'Estudio creativo · Shibuya' },
-  { city: 'Berlín', address: 'Estudio creativo · Kreuzberg' },
+  { city: 'Madrid', address: 'Estudio creativo · Malasaña' },
+  { city: 'Barcelona', address: 'Estudio creativo · Poblenou' },
+  { city: 'Valencia', address: 'Estudio creativo · Ruzafa' },
+  { city: 'Sevilla', address: 'Estudio creativo · Alameda' },
+  { city: 'Bilbao', address: 'Estudio creativo · Bilbao La Vieja' },
+  { city: 'Málaga', address: 'Estudio creativo · Soho' },
 ]
 
 function Nosotros({ officeLandings = [], onNavigate }) {
