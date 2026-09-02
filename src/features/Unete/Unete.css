@@ -1,0 +1,221 @@
+.unete-page {
+  background: #ececec;
+  padding: clamp(40px, 6vw, 60px) 0;
+  min-height: calc(100vh - 82px - 190px);
+}
+
+.unete-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(16px, 3vw, 40px);
+  display: flex;
+  flex-direction: column;
+}
+
+.unete-header {
+  position: relative;
+  text-align: center;
+  margin-bottom: clamp(50px, 8vw, 80px);
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  box-sizing: border-box;
+  min-height: clamp(260px, 36vh, 380px);
+  overflow: hidden;
+  margin-top: -60px;
+}
+
+.unete-header-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.unete-header-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(67, 57, 47, 0.42), rgba(67, 57, 47, 0.42));
+}
+
+.unete-header-content {
+  position: relative;
+  z-index: 1;
+  min-height: inherit;
+  padding: clamp(36px, 8vw, 72px) 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.unete-header h1 {
+  margin: 0 0 clamp(16px, 2vw, 24px);
+  color: #ffffff;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.unete-header p {
+  margin: 0;
+  color:#e9e9e9;
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  line-height: 1.6;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.unete-benefits {
+  margin-bottom: clamp(50px, 8vw, 80px);
+}
+
+.unete-detailed {
+  margin-bottom: clamp(36px, 6vw, 60px);
+}
+
+.unete-benefits h2 {
+  margin: 0 0 clamp(32px, 5vw, 48px);
+  text-align: center;
+  color: #6a573f;
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+  font-weight: 700;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: clamp(24px, 4vw, 40px);
+}
+
+.benefit-card {
+  background:#af97776c;
+  border-radius: 12px;
+  padding: clamp(24px, 4vw, 32px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  text-align: center;
+}
+
+.benefit-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+}
+
+.benefit-card h3 {
+  margin: 0 0 clamp(10px, 1.5vw, 14px);
+  color: #3a3a3a;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  font-weight: 700;
+}
+
+.benefit-card p {
+  margin: 0;
+  color: #656565;
+  font-size: clamp(0.9rem, 1.3vw, 1rem);
+  line-height: 1.6;
+}
+
+.unete-cta {
+  background: #f7f4ee;
+  border-radius: 16px;
+  padding: clamp(40px, 6vw, 60px);
+  text-align: center;
+}
+
+.unete-cta h2 {
+  margin: 0 0 clamp(12px, 2vw, 16px);
+  color: #b79456;
+  font-size: clamp(1.8rem, 3.2vw, 2.4rem);
+  font-weight: 700;
+}
+
+.unete-cta > p {
+  margin: 0 0 clamp(28px, 4vw, 40px);
+  color: #6a573f;
+  font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+  line-height: 1.6;
+}
+
+.unete-form {
+  display: grid;
+  gap: clamp(14px, 2.2vw, 20px);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: 1px solid #d1c2ad;
+  background: #fff;
+  color: #5b5246;
+  font-size: 0.9rem;
+  padding: clamp(10px, 1.5vw, 14px);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #979797;
+}
+
+.submit-button {
+  align-self: center;
+  border: 0;
+  min-height: 44px;
+  padding: 0 clamp(24px, 4vw, 40px);
+  border-radius: 4px;
+  background: #b79456;
+  color: #fff;
+  font-size: clamp(0.9rem, 1.4vw, 1.1rem);
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submit-button:hover,
+.submit-button:focus-visible {
+  background: #a8864a;
+  outline: none;
+}
+
+.submit-button:active {
+  background: #9f7c44;
+}
+
+@media (max-width: 768px) {
+  .unete-page {
+    padding: clamp(24px, 4vw, 40px) 0;
+  }
+
+  .unete-container {
+    padding: 0 clamp(12px, 2vw, 20px);
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .unete-form {
+    gap: clamp(12px, 2vw, 16px);
+  }
+}

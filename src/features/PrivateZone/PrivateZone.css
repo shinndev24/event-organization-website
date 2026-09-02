@@ -1,0 +1,341 @@
+.login-page {
+  background: #f7f4ee;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(20px, 3vw, 40px);
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: clamp(32px, 5vw, 48px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.login-card h1 {
+  margin: 0 0 8px;
+  color: #b79456;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 700;
+}
+
+.login-card > p {
+  margin: 0 0 24px;
+  color: #6a573f;
+  font-size: clamp(1rem, 1.8vw, 1.1rem);
+}
+
+.login-form {
+  display: grid;
+  gap: clamp(16px, 2.5vw, 20px);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  color: #5b5246;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.form-group input {
+  border: 1px solid #d1c2ad;
+  background: #f8f8f8;
+  color: #5b5246;
+  font-size: 0.9rem;
+  padding: clamp(10px, 1.5vw, 14px);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.form-group input::placeholder {
+  color: #979797;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #b79456;
+  background: #fff;
+}
+
+.login-button {
+  border: 0;
+  min-height: 44px;
+  border-radius: 4px;
+  background: #b79456;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.login-button:hover,
+.login-button:focus-visible {
+  background: #a8864a;
+  outline: none;
+}
+
+.login-note {
+  margin: 16px 0 0;
+  color: #999;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+/* Private Zone Styles */
+.private-zone {
+  background: #f7f4ee;
+  min-height: 100vh;
+}
+
+.banner {
+  background: #b79456;
+  color: #fff;
+  padding: clamp(12px, 2vw, 16px) clamp(16px, 3vw, 32px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.banner p {
+  margin: 0;
+  font-size: clamp(0.95rem, 1.6vw, 1.1rem);
+  font-weight: 600;
+}
+
+.banner-close {
+  background: transparent;
+  border: 0;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.private-zone-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 48px) clamp(16px, 3vw, 40px);
+}
+
+.private-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: clamp(32px, 5vw, 48px);
+  padding-bottom: clamp(16px, 2vw, 24px);
+  border-bottom: 2px solid rgba(183, 148, 86, 0.2);
+}
+
+.private-header h1 {
+  margin: 0;
+  color: #43392f;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+}
+
+.logout-button {
+  border: 2px solid #b79456;
+  background: transparent;
+  color: #b79456;
+  padding: clamp(8px, 1.2vw, 12px) clamp(16px, 2.4vw, 24px);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.logout-button:hover {
+  background: #b79456;
+  color: #fff;
+}
+
+.dashboard-grid {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(20px, 3vw, 32px);
+}
+
+.dashboard-grid .full-width {
+  grid-column: 1 / -1;
+}
+
+.dashboard-card {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+  align-items: stretch;
+  overflow: hidden;
+}
+
+.dashboard-card:nth-child(2) {
+  background: #f8f1e4;
+  border-color: rgba(183, 148, 86, 0.24);
+}
+
+.dashboard-card:nth-child(4) {
+  background: #f2eadc;
+  border-color: rgba(169, 134, 74, 0.26);
+}
+
+.dashboard-card:nth-child(6) {
+  background: #efe5d5;
+  border-color: rgba(155, 121, 64, 0.28);
+}
+
+.card-media {
+  min-height: 220px;
+}
+
+.card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.dashboard-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.dashboard-card h2 {
+  margin: 0;
+  color: #43392f;
+  font-size: clamp(1.3rem, 2.2vw, 1.7rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.card-content {
+  padding: clamp(24px, 4vw, 32px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  color: #6a573f;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.card-content p {
+  margin: 0 0 12px;
+}
+
+.card-content p:last-of-type {
+  margin-bottom: 0;
+}
+
+.properties-list {
+  margin: 12px 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.properties-list li {
+  margin-bottom: 8px;
+  color: #6a573f;
+}
+
+.text-muted {
+  color: #999 !important;
+  font-size: 0.85rem;
+}
+
+.edit-button {
+  margin-top: 10px;
+  width: auto;
+  align-self: flex-start;
+  display: inline-flex;
+  justify-content: center;
+  padding: clamp(8px, 1.2vw, 10px) clamp(14px, 2.2vw, 20px);
+  border: 1px solid #b79456;
+  background: transparent;
+  color: #b79456;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edit-button:hover {
+  background: #b79456;
+  color: #fff;
+}
+
+.quick-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: clamp(12px, 2vw, 16px);
+}
+
+.action-button {
+  padding: clamp(14px, 2.2vw, 18px) clamp(12px, 2vw, 16px);
+  border: 0;
+  background: #b79456;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.action-button:hover {
+  background: #a8864a;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .private-header {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    align-items: flex-start;
+  }
+
+  .logout-button {
+    align-self: flex-end;
+  }
+
+  .dashboard-card {
+    grid-template-columns: 1fr;
+  }
+
+  .card-media {
+    min-height: 180px;
+  }
+
+  .quick-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+}
