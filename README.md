@@ -23,10 +23,25 @@ The project showcases:
 
 ## Features
 
-- **Home** - Hero, searcher, services overview, quick lnks and news
+- **Home** - Hero, search bar, services overview, quick lnks and news
 - **Buy page** - Search by areas(Within Spain´s borders) with an area selection in map option, results based on the chosen area and services related
 - **Sell page** - Formulary on sellers' data, selling process steps and services related
-- **Introduction to franchise** - Description, testimonies and formulary with data
-- **Work with us** - Description, formulary with data
+- **Services** - All services offered listed with detail and descriptions
+- **Introduction to franchise** - What we offer, testimonies and contact form
+- **Work with us** - Introduction, reasons for joining and contact form
 - **Contact** - Contact info and contact form
+- **About us** - Brief description of the company, list of agencies, journalism, responsabilities
 - **Private area** - Mockup login and contents/ resources for employees
+
+## Run guide
+
+```bash
+# Clone the repository
+git clone [Github](https://github.com/shinndev24/real-estate-website.git)
+cd real-estate-website
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
