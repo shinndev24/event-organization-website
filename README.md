@@ -19,7 +19,7 @@ The project showcases:
 - Vite
 - React
 - Leaflet
-- CSS / SCSS modules
+- CSS
 
 ## Features
 
