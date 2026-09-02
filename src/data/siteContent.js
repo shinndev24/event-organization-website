@@ -65,7 +65,7 @@ export const servicesPageSections = {
     {
       title: 'Personal Shopper',
       description: 'Te ayudamos a tomar la mejor decisión de compra, asegurando condiciones ventajosas y sin complicaciones.',
-      expandedDescription: 'En Encuentro, hemos desarrollado un exclusivo servicio de Personal Shopper Inmobiliario para ayudarte a tomar la mejor decisión de compra. Nos convertimos en tu persona de confianza, buscando propiedades que se ajusten perfectamente a tus necesidades y gestionando todo el proceso de compra. Desde la búsqueda y selección hasta la negociación y tramitación, nos aseguramos de que obtengas el mejor precio y condiciones ventajosas, brindándote tranquilidad y satisfacción.',
+      expandedDescription: 'Hemos desarrollado un exclusivo servicio de Personal Shopper Inmobiliario para ayudarte a tomar la mejor decisión de compra. Nos convertimos en tu persona de confianza, buscando propiedades que se ajusten perfectamente a tus necesidades y gestionando todo el proceso de compra. Desde la búsqueda y selección hasta la negociación y tramitación, nos aseguramos de que obtengas el mejor precio y condiciones ventajosas, brindándote tranquilidad y satisfacción.',
       image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=520&q=80',
     },
     {
@@ -79,37 +79,37 @@ export const servicesPageSections = {
     {
       title: 'Venta Inmediata',
       description: 'Nuestro servicio de Venta Inmediata te garantiza la mejor solución en el menor tiempo posible.',
-      expandedDescription: 'En Encuentro, entendemos la urgencia de tu situación. Sabemos que la mejor solución es aunar esfuerzos y trabajar el doble para vender tu piso cuanto antes. Nuestra experiencia durante la crisis financiera de 2008 y la Pandemia de 2020 nos permite anticipar esta realidad y ofrecerte el servicio de Venta Inmediata como la mejor alternativa. Nuestro servicio se basa en tres pilares fundamentales: estrategia de venta, equipo humano e inversión digital.',
+      expandedDescription: 'Entendemos la urgencia de tu situación. Sabemos que la mejor solución es aunar esfuerzos y trabajar el doble para vender tu piso cuanto antes. Nuestra experiencia durante la crisis financiera de 2008 y la Pandemia de 2020 nos permite anticipar esta realidad y ofrecerte el servicio de Venta Inmediata como la mejor alternativa. Nuestro servicio se basa en tres pilares fundamentales: estrategia de venta, equipo humano e inversión digital.',
       image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=520&q=80',
     },
     {
       title: 'Nuda Propiedad',
       description: 'Descubre cómo la venta de la Nuda Propiedad puede proporcionarte estabilidad financiera mientras sigues disfrutando de tu hogar.',
-      expandedDescription: 'En Encuentro, ofrecemos la venta de la nuda propiedad como una solución ideal para personas mayores que buscan aumentar sus ingresos manteniendo el usufructo vitalicio de su vivienda. Este servicio te permite vender la titularidad de tu inmueble y seguir disfrutándolo de por vida. Nuestra ayuda se basa en tres pilares fundamentales: estudio personalizado, búsqueda de inversores y un procedimiento seguro y respaldado.',
+      expandedDescription: 'Ofrecemos la venta de la nuda propiedad como una solución ideal para personas mayores que buscan aumentar sus ingresos manteniendo el usufructo vitalicio de su vivienda. Este servicio te permite vender la titularidad de tu inmueble y seguir disfrutándolo de por vida. Nuestra ayuda se basa en tres pilares fundamentales: estudio personalizado, búsqueda de inversores y un procedimiento seguro y respaldado.',
       image: 'https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=520&q=80',
     },
     {
       title: 'Venta Privada',
       description: 'Gestionamos la comercialización de tu vivienda con la máxima privacidad y confidencialidad.',
-      expandedDescription: 'En Encuentro, ofrecemos el servicio de Exclusiva Privada, diseñado específicamente para quienes desean vender su propiedad de manera discreta y privada. Nos encargamos de gestionar la venta sin publicar tu vivienda en portales inmobiliarios, asegurando la máxima confidencialidad y utilizando métodos avanzados como la segmentación de CRM y visitas virtuales. Nuestro objetivo es vender tu casa rápidamente y sin comprometer tu privacidad.',
+      expandedDescription: 'Ofrecemos el servicio de Exclusiva Privada, diseñado específicamente para quienes desean vender su propiedad de manera discreta y privada. Nos encargamos de gestionar la venta sin publicar tu vivienda en portales inmobiliarios, asegurando la máxima confidencialidad y utilizando métodos avanzados como la segmentación de CRM y visitas virtuales. Nuestro objetivo es vender tu casa rápidamente y sin comprometer tu privacidad.',
       image: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=520&q=80',
     },
     {
       title: 'Divorcios',
       description: 'Te ayudamos a vender tu propiedad de manera rápida y beneficiosa, minimizando conflictos.',
-      expandedDescription: 'En Encuentro, entendemos la complejidad de vender una vivienda durante un proceso de divorcio. Nuestra experiencia nos permite asesorarte y gestionar todo el proceso de manera eficiente y conciliadora. Nos encargamos de sincronizar las necesidades de ambas partes y gestionar los trámites necesarios, ahorrándote tiempo y gastos innecesarios. Nuestro objetivo es lograr una venta rápida y al mejor precio posible, evitando conflictos y asegurando una transición fluida.',
+      expandedDescription: 'Entendemos la complejidad de vender una vivienda durante un proceso de divorcio. Nuestra experiencia nos permite asesorarte y gestionar todo el proceso de manera eficiente y conciliadora. Nos encargamos de sincronizar las necesidades de ambas partes y gestionar los trámites necesarios, ahorrándote tiempo y gastos innecesarios. Nuestro objetivo es lograr una venta rápida y al mejor precio posible, evitando conflictos y asegurando una transición fluida.',
       image: 'https://images.unsplash.com/photo-1556156653-e5a7676ecf22?auto=format&fit=crop&w=520&q=80',
     },
     {
       title: 'Herencias',
       description: 'Te ayudamos a resolver los trámites y conflictos inherentes a la herencia, asegurando una venta sin conflictos, rápida y rentable.',
-      expandedDescription: 'En Encuentro, entendemos la delicadeza y complejidad de gestionar una herencia. Nuestro servicio de gestión de ventas en herencias está diseñado para aliviarte de estas cargas, gestionando todos los trámites y proporcionando soluciones eficaces para conflictos familiares. Nos encargamos de todo el proceso, desde la tramitación de documentos hasta la mediación familiar, asegurando una venta rápida y rentable.',
+      expandedDescription: 'Entendemos la delicadeza y complejidad de gestionar una herencia. Nuestro servicio de gestión de ventas en herencias está diseñado para aliviarte de estas cargas, gestionando todos los trámites y proporcionando soluciones eficaces para conflictos familiares. Nos encargamos de todo el proceso, desde la tramitación de documentos hasta la mediación familiar, asegurando una venta rápida y rentable.',
       image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=520&q=80',
     },
     {
       title: 'Cambia y Descansa',
       description: 'Te ayudamos a vender tu casa y adquirir una nueva sin complicaciones.',
-      expandedDescription: 'En Encuentro, ofrecemos nuestro servicio exclusivo ‘Cambia y Descansa’, diseñado para garantizar una transición tranquila y segura al cambiar de vivienda. Nos encargamos de coordinar la venta de tu propiedad actual y la compra de tu nueva casa, asegurando que todo el proceso se realice sin estrés y con la máxima seguridad. Nuestro método se basa en un estudio personalizado, marketing efectivo, y un compromiso total para encontrar tu hogar ideal.',
+      expandedDescription: 'Ofrecemos nuestro servicio exclusivo ‘Cambia y Descansa’, diseñado para garantizar una transición tranquila y segura al cambiar de vivienda. Nos encargamos de coordinar la venta de tu propiedad actual y la compra de tu nueva casa, asegurando que todo el proceso se realice sin estrés y con la máxima seguridad. Nuestro método se basa en un estudio personalizado, marketing efectivo, y un compromiso total para encontrar tu hogar ideal.',
       image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=520&q=80',
     },
   ],
@@ -163,7 +163,7 @@ export const serviceAccordionContent = {
       body: [
         '1. Publicación en portales inmobiliarios con productos específicos dentro de nuestro pack premium.',
         '2. Integración del sistema iReserva en nuestra web.',
-        '3. Publicación preferente en inmuebles de nuestra web iEncuentro.es',
+        '3. Publicación preferente en inmuebles de nuestra web',
         '4. Publicaciones orgánicas en Facebook e Instagram.',
         '5. Anuncios de pago en Facebook (Ads) e Instagram con la segmentación adecuada para conseguir el mayor impacto.',
         '6. Campaña de Google Adwords (sistema de pago de Google para priorizar los anuncios en parrilla).',
@@ -300,7 +300,7 @@ export const serviceAccordionContent = {
   'Venta Privada': [
     {
       id: 'venta-privada-1',
-      title: 'Razones por las que puede optar por vender su casa con la Exclusiva Privada de Inmobiliarias Encuentro: +',
+      title: 'Razones por las que puede optar por vender su casa con la Exclusiva Privada: +',
       body: [
               '1. Objetos valiosos como arte o muebles.',
               '2. Nuevo trabajo o re-ubicación.',
@@ -897,8 +897,7 @@ export const sellSteps = [
 
 export const officeLandingContent = {
   sectionId: 'oficina-1',
-  officeName: 'Inmobiliarias Encuentro {Oficina}',
-  logoText: 'INMOBILIARIAS\nENCUENTRO',
+  officeName: 'Agencia {Oficina}',
   topActions: [
     {label: 'Ubicación oficina' },
     {label: 'Teléfono oficina' },
@@ -964,7 +963,7 @@ export const officeLandingContent = {
     { label: 'Teléfono:', value: '+34 999 999 999' },
     { label: 'Correo:', value: 'correo@correo.es' },
   ],
-  aboutTitle: 'Sobre Inmobiliarias Encuentro {Oficina}',
+  aboutTitle: 'Sobre nuestra agencia en {Oficina}',
   aboutText:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
   footerLabel: 'footer',
@@ -988,7 +987,7 @@ export const officeLandingContent = {
 const createOfficeLandingContent = (key, city, sequence) => ({
   ...officeLandingContent,
   sectionId: key,
-  officeName: `Inmobiliarias Encuentro ${city}`,
+  officeName: `Agencia en ${city}`,
   formTitle: `Landing ${key}`,
   sectionTitle: `En venta en ${city}:`,
   heroImage: `https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1400&q=80&sig=${sequence}`,
@@ -998,7 +997,7 @@ const createOfficeLandingContent = (key, city, sequence) => ({
     { label: 'Teléfono' },
     { label: 'Correo' },
   ],
-  aboutTitle: `Sobre Inmobiliarias Encuentro ${city}`,
+  aboutTitle: `Sobre nuestra agencia en ${city}`,
   aboutText:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
   listings: officeLandingContent.listings.map((listing, index) => ({

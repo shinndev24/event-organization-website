@@ -31,7 +31,7 @@ function SellTemplate({ content, onNavigate }) {
       <header className="office-navbar">
         <div className="office-navbar-shell">
           <a className="office-brand" href={`#${content.sectionId}`} aria-label={content.officeName}>
-            <img className="office-brand-logo" src={logo} alt="Encuentro" />
+            <img className="office-brand-logo" src={logo} alt="OfficeLogo" />
           </a>
 
           <button

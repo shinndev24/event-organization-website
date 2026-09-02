@@ -86,7 +86,7 @@ function Contact() {
               <div className="contact-info-icon" aria-hidden="true">
                 <img src={contactoIcon} alt="" />
               </div>
-              <p>+34 999 999 999<br />info@iencuentro.es</p>
+              <p>+34 999 999 999<br />info@inmobiliaria.es</p>
             </div>
           </aside>
         </div>

@@ -50,7 +50,7 @@ function PropertyLanding({ property, returnTo = 'oficina-1', onNavigate }) {
           </button>
 
           <a className="office-brand" href="#property" aria-label={property.title}>
-            <img className="office-brand-logo" src={logo} alt="Encuentro" />
+            <img className="office-brand-logo" src={logo} alt="OfficeLogo" />
           </a>
 
           <button

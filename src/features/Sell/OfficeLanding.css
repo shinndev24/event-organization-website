@@ -31,7 +31,7 @@
 
 .office-brand-logo {
   display: block;
-  width: clamp(140px, 14vw, 195px);
+  width: clamp(52px, 6vw, 76px);
   height: auto;
 }
 

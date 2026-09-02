@@ -17,7 +17,7 @@ function Header({
     >
       <div className="container navbar-inner">
         <a className="brand" href="#inicio" onClick={onGoTop}>
-          <img className="brand-logo" src={logo} alt="Logo Encuentro" />
+          <img className="brand-logo" src={logo} alt="Logo" />
         </a>
 
         <button

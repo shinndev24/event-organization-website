@@ -40,7 +40,7 @@ function Services({ heroImage, services = [], serviceSections = {}, onNavigate }
       accent: 'category-comprar',
       image: groupedSections.comprar[0]?.image,
       items: groupedSections.comprar,
-      text: 'Confía en Encuentro para encontrar la propiedad perfecta para ti y tu familia. Hacemos fácil lo difícil.',
+      text: 'Confía en nosotros para encontrar la propiedad perfecta para ti y tu familia. Hacemos fácil lo difícil.',
     },
     {
       key: 'vender',
@@ -151,7 +151,7 @@ function Services({ heroImage, services = [], serviceSections = {}, onNavigate }
         <div className="container services-container">
           <div className="services-intro">
             <h2>Servicios exclusivos y personalizados</h2>
-            <p>En Encuentro, cubrimos cada necesidad que puedas tener antes, durante y después de tu proceso inmobiliario.<br></br>
+            <p>Cubrimos cada necesidad que puedas tener antes, durante y después de tu proceso inmobiliario.<br></br>
 
               Nuestro enfoque integral asegura que tengas la mejor experiencia en cada etapa de tu transacción o de la inversión.</p>
           </div>

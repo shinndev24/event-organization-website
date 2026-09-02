@@ -77,7 +77,7 @@ function PrivateZone() {
                 />
               </div>
               <div className="card-content">
-                <h2>IAs iencuentro</h2>
+                <h2>Nuestra IA</h2>
                 <p>Damos un paso más en innovación incorporando tres herramientas de Inteligencia Artificial diseñadas para potenciar tu autoridad, minimizar riesgos y multiplicar tus captaciones.</p>
                 <p><b>Acceso a Zona IA</b></p>
                 <button className="edit-button">Acceder</button>
@@ -94,7 +94,7 @@ function PrivateZone() {
               </div>
               <div className="card-content">
                 <h2>Área de formación</h2>
-                <p>Recursos formativos diseñados para convertirte en un profesional del Método-Encuentro. Accede a cursos, tutoriales y materiales didácticos que te ayudarán a crecer profesionalmente.</p>
+                <p>RAccede a cursos, tutoriales y materiales didácticos que te ayudarán a crecer profesionalmente.</p>
                 <button className="edit-button">Acceder a vídeos de formación</button>
               </div>
             </section>
@@ -142,7 +142,7 @@ function PrivateZone() {
               </div>
               <div className="card-content">
                 <h2>Merchandising</h2>
-                <p>Accede a la zona de Ecommerce-Merchandising, donde explorar el catálogo actualizado de productos de merchandising y realizar tus pedidos de forma sencilla. Mantén tu oficina provista con los últimos artículos promocionales de Encuentro.</p>
+                <p>Accede a la zona de Ecommerce-Merchandising, donde explorar el catálogo actualizado de productos de merchandising y realizar tus pedidos de forma sencilla. Mantén tu oficina provista con los últimos artículos promocionales</p>
                 <p><b>Catálogo de Productos</b></p>
                 <button className="edit-button">Consultar</button>
                 <p><b>Tienda Online</b></p>

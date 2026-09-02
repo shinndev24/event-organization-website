@@ -15,6 +15,7 @@ import Unete from '@features/Unete/index.jsx'
 import PrivateZone from '@features/PrivateZone/index.jsx'
 import SellTemplate from '@features/Sell/components/SellTemplate.jsx'
 import PropertyLanding from '@features/Sell/components/PropertyLanding.jsx'
+import LanguageToggle from './LanguageToggle.jsx'
 import { navItems, officeLandingContents, officeLandingPages, services, servicesPageSections } from '@data/siteContent.js'
 
 const servicesHeroImage = 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1400&q=80'
@@ -151,6 +152,7 @@ function App() {
 
   return (
     <div className="app-shell">
+      <LanguageToggle />
       {!activePage.startsWith('oficina-') && activePage !== 'property' && (
         <Header
           logo={logo}

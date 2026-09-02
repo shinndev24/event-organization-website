@@ -28,7 +28,7 @@
 }
 
 .navbar.is-compact .brand-logo {
-  width: clamp(100px, 7.8vw, 140px);
+  width: clamp(36px, 3.8vw, 60px);
 }
 
 .navbar.is-compact .menu-link {
@@ -62,7 +62,7 @@
 
 .brand-logo {
   display: block;
-  width: clamp(120px, 14vw, 188px);
+  width: clamp(48px, 6vw, 72px);
   max-width: 100%;
   height: auto;
   transition: width 0.42s cubic-bezier(0.22, 1, 0.36, 1);
