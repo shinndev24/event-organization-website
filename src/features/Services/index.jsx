@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Services.css'
-import { serviceAccordionContent } from '@data/siteContent.js'
+import { serviceAccordionContent } from '@data/creativeContent.js'
 
 function Services({ heroImage, services = [], serviceSections = {}, onNavigate }) {
   const [openGroups, setOpenGroups] = useState({
@@ -36,25 +36,25 @@ function Services({ heroImage, services = [], serviceSections = {}, onNavigate }
     {
       key: 'comprar',
       eyebrow: 'Compra',
-      title: 'Comprar · servicios asociados',
+      title: 'Experiencias · formatos asociados',
       accent: 'category-comprar',
       image: groupedSections.comprar[0]?.image,
       items: groupedSections.comprar,
-      text: 'Confía en nosotros para encontrar la propiedad perfecta para ti y tu familia. Hacemos fácil lo difícil.',
+      text: 'Diseñamos experiencias que conectan personas, marcas y comunidades.',
     },
     {
       key: 'vender',
       eyebrow: 'Venta',
-      title: 'Vender · servicios asociados',
+      title: 'Proyectos · formatos asociados',
       accent: 'category-vender',
       image: groupedSections.vender[0]?.image,
       items: groupedSections.vender,
-      text: 'Tu inmueble vendido en el menor tiempo y en las mejores condiciones del mercado.',
+      text: 'Convertimos retos creativos en proyectos con ritmo, identidad y resultados.',
     },
     {
       key: 'independiente',
-      eyebrow: 'Finmoo',
-      title: 'Finmoo · servicio independiente',
+      eyebrow: 'Estrategia',
+      title: 'Estrategia · servicio creativo',
       accent: 'category-independiente',
       image: groupedSections.independiente[0]?.image,
       items: groupedSections.independiente,
@@ -141,7 +141,7 @@ function Services({ heroImage, services = [], serviceSections = {}, onNavigate }
           <p className="services-hero-kicker">Servicios</p>
           <h1>Nuestros servicios</h1>
           <p>
-              Probablemente los mejores servicios del mercado inmobiliario.
+              Ideas que se viven y proyectos que se recuerdan.
           </p>
           
         </div>
@@ -150,10 +150,10 @@ function Services({ heroImage, services = [], serviceSections = {}, onNavigate }
       <section className="services-main">
         <div className="container services-container">
           <div className="services-intro">
-            <h2>Servicios exclusivos y personalizados</h2>
-            <p>Cubrimos cada necesidad que puedas tener antes, durante y después de tu proceso inmobiliario.<br></br>
+            <h2>Servicios creativos y personalizados</h2>
+            <p>Cubrimos cada necesidad antes, durante y después de tu evento o experiencia.<br></br>
 
-              Nuestro enfoque integral asegura que tengas la mejor experiencia en cada etapa de tu transacción o de la inversión.</p>
+              Nuestro enfoque integral asegura que cada etapa del proyecto tenga intención y energía.</p>
           </div>
 
           <div className="services-groups">

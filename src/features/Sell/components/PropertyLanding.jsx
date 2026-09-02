@@ -46,7 +46,7 @@ function PropertyLanding({ property, returnTo = 'oficina-1', onNavigate }) {
             onClick={handleBackToOffice}
             aria-label="Volver"
           >
-            ← Volver
+              ← Volver a proyectos
           </button>
 
           <a className="office-brand" href="#property" aria-label={property.title}>
@@ -67,10 +67,10 @@ function PropertyLanding({ property, returnTo = 'oficina-1', onNavigate }) {
 
           <div className={`office-dropdown ${menuOpen ? 'is-open' : ''}`}>
             <a href="#compra" onClick={(event) => { event.preventDefault(); handleNavigate('compra') }}>
-              Comprar
+              Experiencias
             </a>
             <a href="#venta" onClick={(event) => { event.preventDefault(); handleNavigate('venta') }}>
-              Vender
+              Proyectos
             </a>
             <a href="#servicios" onClick={(event) => { event.preventDefault(); handleNavigate('servicios') }}>
               Servicios
@@ -134,7 +134,7 @@ function PropertyLanding({ property, returnTo = 'oficina-1', onNavigate }) {
               <p className="property-description">{property.description}</p>
 
               <div className="property-details-card">
-                <h2>Especificaciones</h2>
+                <h2>Detalles del proyecto</h2>
                 <p>{property.specs}</p>
               </div>
 
@@ -143,7 +143,7 @@ function PropertyLanding({ property, returnTo = 'oficina-1', onNavigate }) {
                 className="property-contact-cta"
                 onClick={() => handleNavigate('contacto')}
               >
-                Solicitar más información
+                Hablemos de este proyecto
               </button>
             </div>
 
@@ -152,7 +152,7 @@ function PropertyLanding({ property, returnTo = 'oficina-1', onNavigate }) {
                 <h3>Contactar</h3>
                 <div className="property-contact-item">
                   <img className="property-contact-icon" src={locationIcon} alt="" aria-hidden="true" />
-                  <span>Ubicación de la oficina</span>
+                  <span>Estudio responsable</span>
                 </div>
                 <div className="property-contact-row">
                   <strong>Teléfono:</strong>
@@ -171,12 +171,12 @@ function PropertyLanding({ property, returnTo = 'oficina-1', onNavigate }) {
               </div>
 
               <div className="property-features-card">
-                <h3>Características</h3>
+                <h3>Qué incluye</h3>
                 <ul className="property-features-list">
-                  <li>Espacio amplio</li>
-                  <li>Buena iluminación</li>
-                  <li>Parking disponible</li>
-                  <li>Acceso inmediato</li>
+                  <li>Concepto creativo</li>
+                  <li>Producción integral</li>
+                  <li>Contenido audiovisual</li>
+                  <li>Acompañamiento cercano</li>
                 </ul>
               </div>
             </aside>

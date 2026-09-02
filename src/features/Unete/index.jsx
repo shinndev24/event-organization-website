@@ -39,13 +39,13 @@ function Unete() {
     <section className="unete-page">
       <div className="unete-container">
         <div className="unete-header">
-          <img className="unete-header-image" src={heroImage} alt="Interior moderno de una vivienda" />
+          <img className="unete-header-image" src={heroImage} alt="Montaje de una experiencia creativa" />
           <div className="unete-header-overlay" aria-hidden="true" />
           <div className="unete-header-content">
-            <h1>Por qué nuestra inmobiliaria</h1>
+            <h1>Por qué crear con nosotros</h1>
             <p>
-              Somos más que una inmobiliaria; somos tu asesor.<br></br>
-              Hoy por ti, mañana también.
+              Somos más que una agencia; somos tu equipo creativo.<br></br>
+              Hoy por tu idea, mañana también.
             </p>
           </div>
         </div>

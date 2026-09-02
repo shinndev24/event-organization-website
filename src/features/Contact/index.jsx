@@ -19,9 +19,7 @@ function Contact() {
       <div className="contact-shell">
         <div className="contact-hero">
           <div className="contact-hero-copy">
-            <h1>
-              CONTACTA CON NOSOTROS
-            </h1>
+            <h1>CREEMOS ALGO JUNTOS</h1>
 
             <div className="contact-socials" aria-label="Redes sociales">
               {socialLinks.map((link) => (
@@ -33,13 +31,13 @@ function Contact() {
           </div>
 
           <div className="contact-hero-image-wrap">
-            <img className="contact-hero-image" src={contactImage} alt="Casa destacada" />
+            <img className="contact-hero-image" src={contactImage} alt="Evento destacado" />
           </div>
         </div>
 
         <div className="contact-content">
           <div className="contact-form-card">
-            <h2>CONTÁCTANOS</h2>
+            <h2>HABLEMOS DE TU PROYECTO</h2>
 
             <form className="contact-form">
               <input type="text" placeholder="Nombre y apellidos" aria-label="Nombre y apellidos" />
@@ -86,7 +84,7 @@ function Contact() {
               <div className="contact-info-icon" aria-hidden="true">
                 <img src={contactoIcon} alt="" />
               </div>
-              <p>+34 999 999 999<br />info@inmobiliaria.es</p>
+              <p>+34 999 999 999<br />hola@estudiocreativo.es</p>
             </div>
           </aside>
         </div>

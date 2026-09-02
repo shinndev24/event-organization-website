@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { locationData, operationTypes, propertyTypes } from '@data/siteContent.js'
+import { locationData, operationTypes, propertyTypes } from '@data/creativeContent.js'
 import './BuyFilters.css'
 
 function BuyFilters({ filters, setters, onClear }) {
@@ -42,8 +42,8 @@ function BuyFilters({ filters, setters, onClear }) {
 
   return (
     <div className="buy-search-column compact">
-      <h2>Buscar propiedades</h2>
-      <p className="muted">Filtra y busca en el mapa</p>
+      <h2>Explorar experiencias</h2>
+      <p className="muted">Filtra proyectos y eventos en el mapa</p>
 
       <div className="buy-search-bar" role="search">
         <div className="input-group location" ref={inputRef}>
@@ -55,7 +55,7 @@ function BuyFilters({ filters, setters, onClear }) {
               setters.setLocationQuery(e.target.value)
               setShowSuggestions(true)
             }}
-            placeholder="Ciudad, barrio o código postal"
+            placeholder="Ciudad o lugar"
             aria-label="Buscar por ubicación"
             autoComplete="off"
           />
@@ -74,9 +74,9 @@ function BuyFilters({ filters, setters, onClear }) {
         <select
           value={filters.selectedOperationType}
           onChange={(e) => setters.setSelectedOperationType(e.target.value)}
-          aria-label="Compra o Alquiler"
+          aria-label="Estado del proyecto"
         >
-          <option value="">Operación</option>
+          <option value="">Estado</option>
           {operationTypes.map((op) => (
             <option key={op} value={op}>
               {op}
@@ -87,9 +87,9 @@ function BuyFilters({ filters, setters, onClear }) {
         <select
           value={filters.selectedPropertyType}
           onChange={(e) => setters.setSelectedPropertyType(e.target.value)}
-          aria-label="Tipo de propiedad"
+          aria-label="Tipo de experiencia"
         >
-          <option value="">Tipo</option>
+          <option value="">Formato</option>
           {propertyTypes.map((type) => (
             <option key={type} value={type}>
               {type}
@@ -102,7 +102,7 @@ function BuyFilters({ filters, setters, onClear }) {
           onChange={(e) => setters.setSelectedBedrooms(e.target.value)}
           aria-label="Dormitorios"
         >
-          <option value="">Dorm.</option>
+          <option value="">Formato</option>
           {[1, 2, 3, 4, 5].map((b) => (
             <option key={b} value={b}>
               {b}+
@@ -116,8 +116,8 @@ function BuyFilters({ filters, setters, onClear }) {
             min="0"
             value={filters.minPrice}
             onChange={(e) => setters.setMinPrice(e.target.value)}
-            placeholder="Precio min"
-            aria-label="Precio mínimo"
+            placeholder="Desde"
+            aria-label="Presupuesto mínimo"
           />
 
           <input
@@ -125,8 +125,8 @@ function BuyFilters({ filters, setters, onClear }) {
             min="0"
             value={filters.maxPrice}
             onChange={(e) => setters.setMaxPrice(e.target.value)}
-            placeholder="Precio max"
-            aria-label="Precio máximo"
+            placeholder="Hasta"
+            aria-label="Presupuesto máximo"
           />
         </div>
 

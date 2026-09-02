@@ -262,7 +262,7 @@ function BuyMap({
       </div>
 
       <div className="map-selection-totals">
-        <p>Propiedades en selección: {totals?.total ?? 0}</p>
+        <p>Proyectos en selección: {totals?.total ?? 0}</p>
         {(totals?.perArea || []).map((area) => (
           <p key={area.id} className="per-zone-count">
             {area.level === 'municipality' ? 'Municipio' : 'Provincia'} {area.name}: {area.count}

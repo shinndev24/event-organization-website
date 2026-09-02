@@ -2,12 +2,12 @@ export default function FranquiciaFAQ() {
   return (
     <section className="franquicia-faq">
       <div className="faq-container">
-        <div className="faq-item"><div className="faq-question"><span>Lorem ipsum dolor sit amet?</span><span>+</span></div><div className="faq-answer active"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div></div>
-        <div className="faq-item"><div className="faq-question"><span>Lorem ipsum dolor sit amet?</span><span>+</span></div><div className="faq-answer"><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div></div>
-        <div className="faq-item"><div className="faq-question"><span>Lorem ipsum dolor sit amet?</span><span>+</span></div><div className="faq-answer"><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></div></div>
-        <div className="faq-item"><div className="faq-question"><span>Lorem ipsum dolor sit amet?</span><span>+</span></div><div className="faq-answer"><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></div>
-        <div className="faq-item"><div className="faq-question"><span>Lorem ipsum dolor sit amet?</span><span>+</span></div><div className="faq-answer"><p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra.</p></div></div>
-        <div className="faq-item"><div className="faq-question"><span>Lorem ipsum dolor sit amet?</span><span>+</span></div><div className="faq-answer"><p>Fusce in urna quis elit laoreet consequat. Integer ultrices lobortis nibh, sed dignissim justo.</p></div></div>
+        <div className="faq-item"><div className="faq-question"><span>¿Qué tipo de proyectos podemos crear?</span><span>+</span></div><div className="faq-answer active"><p>Eventos, festivales, lanzamientos, experiencias de marca y producciones audiovisuales a medida.</p></div></div>
+        <div className="faq-item"><div className="faq-question"><span>¿Necesito experiencia previa?</span><span>+</span></div><div className="faq-answer"><p>No es imprescindible: te acompañamos con método, formación y una red de profesionales creativos.</p></div></div>
+        <div className="faq-item"><div className="faq-question"><span>¿Qué apoyo recibiré?</span><span>+</span></div><div className="faq-answer"><p>Contarás con dirección creativa, producción, comunicación y herramientas colaborativas.</p></div></div>
+        <div className="faq-item"><div className="faq-question"><span>¿Podemos trabajar desde distintas ciudades?</span><span>+</span></div><div className="faq-answer"><p>Sí. Combinamos estudios locales, equipos distribuidos y producción presencial cuando el proyecto lo necesita.</p></div></div>
+        <div className="faq-item"><div className="faq-question"><span>¿Cómo empieza una colaboración?</span><span>+</span></div><div className="faq-answer"><p>Con una conversación sobre tu idea, tus objetivos, tu público y la emoción que quieres provocar.</p></div></div>
+        <div className="faq-item"><div className="faq-question"><span>¿Qué hace diferente nuestro método?</span><span>+</span></div><div className="faq-answer"><p>Unimos concepto, sensibilidad y producción rigurosa para que cada detalle tenga un propósito.</p></div></div>
       </div>
     </section>
   );

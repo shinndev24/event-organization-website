@@ -1,20 +1,20 @@
 export default function FranquiciaTestimonials() {
   const testimonials = [
     {
-      name: 'Ricardo Ortega San Miguel',
-      text: '"Desde que abrí mi franquicia con nuestra agencia, he visto un crecimiento en la rentabilidad que superó mis expectativas. No solo he recuperado mi inversión inicial rápidamente, sino que también he visto una rentabilidad constante y creciente. Sin duda, esta franquicia ha sido una de las mejores decisiones empresariales que he tomado."',
+      name: 'Nora Valdés',
+      text: '"Llegamos con una idea todavía borrosa y salimos con un evento que tenía ritmo, personalidad y una energía increíble. El equipo entendió lo que queríamos decir y lo convirtió en algo que la gente pudo sentir."',
     },
     {
-      name: 'Carmen Conde',
-      text: '"La formación continua que ofrece nuestra agencia es clave para mantenernos actualizados y eficaces. El método operativo que enseñan no solo es exhaustivo, sino que también se adapta a las tendencias del mercado y a las necesidades cambiantes. Las sesiones de formación periódicas y las actualizaciones constantes en los procedimientos nos permiten optimizar nuestro trabajo y ofrecer un servicio de alta calidad. Este enfoque en la capacitación continua asegura que siempre estemos a la vanguardia y preparados para enfrentar cualquier desafío."',
+      name: 'Leo Marín',
+      text: '"La dirección artística dio coherencia a cada detalle, desde la invitación hasta la última luz del espacio. Fue una experiencia elegante, cercana y muy nuestra. Todavía seguimos hablando de ella."',
     },
     {
-      name: 'Jose Luis Álvarez',
-      text: '"La formación que recibí al unirme a nuestra agencia fue excepcional. Desde el primer momento, el equipo de formación me proporcionó todas las herramientas y conocimientos necesarios para tener éxito en el sector inmobiliario. Las sesiones prácticas, los recursos continuos y el acompañamiento personalizado me han permitido empezar con confianza y operar con eficacia desde el principio. La inversión en formación realmente marca la diferencia."',
+      name: 'Mara Soler',
+      text: '"Trabajar con el estudio nos ayudó a lanzar nuestra marca de una forma que no habíamos imaginado. La producción fue impecable y el contenido posterior hizo que el proyecto siguiera vivo mucho después del evento."',
     },
     {
-      name: 'Itxaso Jareño',
-      text: '"Lo que realmente distingue a nuestra agencia es el apoyo constante que brindan a sus franquiciados. Desde el inicio, he recibido una asistencia continua en todas las áreas, desde la gestión diaria hasta la resolución de problemas específicos. Saber que siempre puedo contar con un equipo de expertos dispuestos a ayudarme me ha permitido enfocarme en hacer crecer mi negocio sin preocupaciones. Este respaldo es invaluable y esencial para el éxito"',
+      name: 'Bruno Castaño',
+      text: '"Lo mejor fue sentir que formábamos un solo equipo. Hubo creatividad, pero también método, escucha y mucha calma cuando aparecieron imprevistos. El resultado superó todas nuestras expectativas."',
     },
   ]
 
